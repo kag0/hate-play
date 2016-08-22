@@ -1,0 +1,3 @@
+GET     /pets/:petId                controllers.ResourceController.showPet(petId: Long)
+GET     /store/orders/:orderId      controllers.ResourceController.showOrder(orderId: Long)
+GET     /store/inventory/:itemId    controllers.ResourceController.showItem(itemId: Long)
